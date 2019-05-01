@@ -3,7 +3,7 @@
 *
 * Implementation of a CUDA-based Cpp library for fast DRR generation with GPU acceleration
 *
-* Based both on the description found in the ìImproved Algorithmî section in Jacobís paper (1998)
+* Based both on the description found in the ‚ÄúImproved Algorithm‚Äù section in Jacob‚Äôs paper (1998)
 * https://www.researchgate.net/publication/2344985_A_Fast_Algorithm_to_Calculate_the_Exact_Radiological_Path_Through_a_Pixel_Or_Voxel_Space
 * and on the implementation suggested in Greef et al 2009
 * https://www.ncbi.nlm.nih.gov/pubmed/19810482
@@ -12,6 +12,7 @@
 */
 
 #include "siddon_class.cuh"
+#include <stdio.h>
 #include <iostream>
 #include "cuda_runtime.h"
 #include "device_launch_parameters.h"
